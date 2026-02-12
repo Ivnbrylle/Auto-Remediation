@@ -1,0 +1,26 @@
+# Local .terraform folder (contains gigabytes of provider binaries)
+.terraform/
+
+# Terraform state files (contains sensitive info and resource IDs)
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+# Variable files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Log files
+*.log
+
+# Windows-specific (since you are on Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
