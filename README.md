@@ -1,4 +1,4 @@
-# ☁️ AWS Cloud Janitor: Event-Driven Self-Healing Infrastructure
+# AWS Cloud Janitor: Event-Driven Self-Healing Infrastructure
 
 ## Overview
 This project demonstrates **Self-Healing Infrastructure** using a "Cloud Janitor" pattern. It is an automated remediation pipeline that detects service failures (specifically Nginx) on an Amazon Linux 2023 instance and fixes them without human intervention.
