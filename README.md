@@ -1,9 +1,9 @@
 # AWS Cloud Janitor: Event-Driven Self-Healing Infrastructure
 
-## 📖 Overview
+## Overview
 This project demonstrates **Self-Healing Infrastructure** using a "Cloud Janitor" pattern. It is an automated remediation pipeline that detects service failures (specifically Nginx) on an Amazon Linux 2023 instance and fixes them without human intervention.
 
-## 🏗️ Architecture
+## Architecture
 The system is built entirely as **Infrastructure as Code (IaC)** using Terraform and follows an event-driven design:
 
 1.  **Monitoring:** CloudWatch Alarms monitor instance health metrics.
@@ -16,14 +16,14 @@ The system is built entirely as **Infrastructure as Code (IaC)** using Terraform
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **IaC:** Terraform
 * **Cloud Provider:** AWS (Region: `ap-southeast-1`)
 * **Services:** EC2, Lambda, CloudWatch, EventBridge, Systems Manager (SSM), IAM
 * **Languages:** Python (Boto3), Bash, HCL
 * **Integrations:** Discord Webhooks
 
-## 🚀 Deployment & Management
+## Deployment & Management
 A Bash script (`deploy.sh`) is provided to automate the infrastructure lifecycle and ensure the environment is correctly configured before deployment.
 
 ### Deploying the Janitor:
